@@ -21,8 +21,8 @@ Pod::Spec.new do |spec|
 
   spec.author    = "YuliaN"
   spec.platform  = :ios, "11.0"
-  spec.source = { :http => 'file:' + __dir__ + "/" }
+  spec.source = { :git => "https://github.com/Jiliann143/swiftools.git" }
 
-  spec.source_files  = "Swiftools/Source/*.{swift}"
+  #spec.source_files  = "Sources/**/*.swift"
   spec.swift_version = "5.0"
 end
