@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Swiftools"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A small library with swift tools."
 
   spec.description  = <<-DESC
