@@ -10,6 +10,8 @@
 		A35C703224681AE700B57632 /* UIColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C702E24681AE600B57632 /* UIColorTools.swift */; };
 		A35C703324681AE700B57632 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703024681AE600B57632 /* Logger.swift */; };
 		A35C703424681AE700B57632 /* StringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703124681AE600B57632 /* StringHelpers.swift */; };
+		A3E837F4246ED1D00040057B /* ArrayTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E837F3246ED1D00040057B /* ArrayTools.swift */; };
+		A3E837F8246ED4780040057B /* DataTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E837F7246ED4780040057B /* DataTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		A35C702E24681AE600B57632 /* UIColorTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorTools.swift; sourceTree = "<group>"; };
 		A35C703024681AE600B57632 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		A35C703124681AE600B57632 /* StringHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelpers.swift; sourceTree = "<group>"; };
+		A3E837F3246ED1D00040057B /* ArrayTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTools.swift; sourceTree = "<group>"; };
+		A3E837F7246ED4780040057B /* DataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A35C702E24681AE600B57632 /* UIColorTools.swift */,
 				A35C702F24681AE600B57632 /* Logger */,
 				A35C703124681AE600B57632 /* StringHelpers.swift */,
+				A3E837F3246ED1D00040057B /* ArrayTools.swift */,
+				A3E837F7246ED4780040057B /* DataTools.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -156,6 +162,8 @@
 				A35C703424681AE700B57632 /* StringHelpers.swift in Sources */,
 				A35C703224681AE700B57632 /* UIColorTools.swift in Sources */,
 				A35C703324681AE700B57632 /* Logger.swift in Sources */,
+				A3E837F4246ED1D00040057B /* ArrayTools.swift in Sources */,
+				A3E837F8246ED4780040057B /* DataTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +308,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.Swiftools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -329,7 +337,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.Swiftools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
