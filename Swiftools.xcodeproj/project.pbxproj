@@ -10,6 +10,10 @@
 		A35C703224681AE700B57632 /* UIColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C702E24681AE600B57632 /* UIColorTools.swift */; };
 		A35C703324681AE700B57632 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703024681AE600B57632 /* Logger.swift */; };
 		A35C703424681AE700B57632 /* StringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703124681AE600B57632 /* StringHelpers.swift */; };
+		A3916BFC24F6B92A004BF1AE /* CMTimeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916BFB24F6B92A004BF1AE /* CMTimeTools.swift */; };
+		A3916C0C24F6C13E004BF1AE /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0B24F6C13E004BF1AE /* DateParser.swift */; };
+		A3916C0E24F6C292004BF1AE /* RandomDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0D24F6C292004BF1AE /* RandomDate.swift */; };
+		A3916C1024F6C2B9004BF1AE /* URLTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0F24F6C2B9004BF1AE /* URLTools.swift */; };
 		A3E837F4246ED1D00040057B /* ArrayTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E837F3246ED1D00040057B /* ArrayTools.swift */; };
 		A3E837F8246ED4780040057B /* DataTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E837F7246ED4780040057B /* DataTools.swift */; };
 /* End PBXBuildFile section */
@@ -20,6 +24,10 @@
 		A35C702E24681AE600B57632 /* UIColorTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorTools.swift; sourceTree = "<group>"; };
 		A35C703024681AE600B57632 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		A35C703124681AE600B57632 /* StringHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelpers.swift; sourceTree = "<group>"; };
+		A3916BFB24F6B92A004BF1AE /* CMTimeTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMTimeTools.swift; sourceTree = "<group>"; };
+		A3916C0B24F6C13E004BF1AE /* DateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParser.swift; sourceTree = "<group>"; };
+		A3916C0D24F6C292004BF1AE /* RandomDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDate.swift; sourceTree = "<group>"; };
+		A3916C0F24F6C2B9004BF1AE /* URLTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTools.swift; sourceTree = "<group>"; };
 		A3E837F3246ED1D00040057B /* ArrayTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTools.swift; sourceTree = "<group>"; };
 		A3E837F7246ED4780040057B /* DataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +76,10 @@
 				A35C703124681AE600B57632 /* StringHelpers.swift */,
 				A3E837F3246ED1D00040057B /* ArrayTools.swift */,
 				A3E837F7246ED4780040057B /* DataTools.swift */,
+				A3916BFB24F6B92A004BF1AE /* CMTimeTools.swift */,
+				A3916C0B24F6C13E004BF1AE /* DateParser.swift */,
+				A3916C0D24F6C292004BF1AE /* RandomDate.swift */,
+				A3916C0F24F6C2B9004BF1AE /* URLTools.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -159,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3916BFC24F6B92A004BF1AE /* CMTimeTools.swift in Sources */,
 				A35C703424681AE700B57632 /* StringHelpers.swift in Sources */,
+				A3916C0E24F6C292004BF1AE /* RandomDate.swift in Sources */,
+				A3916C1024F6C2B9004BF1AE /* URLTools.swift in Sources */,
+				A3916C0C24F6C13E004BF1AE /* DateParser.swift in Sources */,
 				A35C703224681AE700B57632 /* UIColorTools.swift in Sources */,
 				A35C703324681AE700B57632 /* Logger.swift in Sources */,
 				A3E837F4246ED1D00040057B /* ArrayTools.swift in Sources */,
