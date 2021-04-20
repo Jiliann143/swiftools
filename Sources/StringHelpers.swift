@@ -25,6 +25,10 @@ public struct Trimmed {
 
 public extension String {
     
+    var trim: String {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
     var stripHTML: String? {
         return self.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
     }
