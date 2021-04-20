@@ -23,6 +23,11 @@ public extension Array {
 
 extension Array where Element: Equatable {
     
+    mutating func insertIfNotNil(_ element: Element?, at index: Int) {
+        guard let element = element else { return }
+        insert(element, at: index)
+    }
+    
     mutating func delete(_ object: Element) {
         guard let index = (firstIndex { $0 == object }) else { return }
         remove(at: index)
